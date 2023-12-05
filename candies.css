@@ -1,0 +1,11 @@
+/* Раздел конфет */
+
+section.candies{
+    min-height: 84vh;
+    margin-top:12vh;
+    margin-bottom: 3rem;
+}
+
+.candies .wrapper .candy-card{
+    margin-bottom: 3rem;
+}
