@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/c3a7ad5e78.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="Q&A.css" />
+        <title>Магазин сладостей</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+            <nav class="navbar">
+                <a href="index.html">Главная</a>
+                <a href="candies.html">Конфеты</a>
+                <a href="marmelade.html">Мармелад</a>
+                <a href="Q&A.html">FAQs</a>
+                <a href="contact.html">Связь с нами</a>
+            </nav>
+            <div class="icons">
+                <div class="search-icon"><i class="fas fa-search"></i></div>
+                <div class="cart-icon"><i class="fas fa-cart-plus"></i></div>
+                <div class="menu-icon"><i class="fas fa-bars"></i></div>
+            </div>
+
+            <div class="search-form">
+                <input type="search" name="search" id="search-box" placeholder="поиск по магазину...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+            <div class="cart-items-container"> <!--корзина покупателя-->
+                <!-- Первый предмет -->
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/icecream1.jpg" alt="" />
+                    <div class="content">
+                        <h3>Мороженое</h3>
+                        <div class="price">$19.99/-</div>
+                    </div>
+                </div>
+                <!-- Второй предмет -->
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/marmelad.jpg" alt="" />
+                    <div class="content">
+                        <h3>Мармелад</h3>
+                        <div class="price">$14.89/-</div>
+                    </div>
+                </div>
+                <!-- Третий предмет -->
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/candy.jpg" alt="" />
+                    <div class="content">
+                        <h3>Конфеты</h3>
+                        <div class="price">$29.99/-</div>
+                    </div>
+                </div>
+                <!-- Четвертый предмет -->
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/chocolate.jpg" alt="" />
+                    <div class="content">
+                        <h3>Шоколад</h3>
+                        <div class="price">$39.89/-</div>
+                    </div>
+                </div>
+                <a href="" class="btn">Заказать сейчас</a>
+            </div>
+        </header>
+
+        <section class="faqs" id="faqs">
+            <h3 class="title">Часто задаваемые <span>вопросы</span></h3>
+            <div class="container">
+                <div class="content">
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Каковы ваши способы оплаты?</h4>
+                            <p>
+                                Мы принимаем оплату банковскими картами 
+                                (Visa, Mastercard, American Express) и электронными 
+                                платежными системами (PayPal, Apple Pay). Также при 
+                                желании вы можете заплатить курьеру наличными при доставке или 
+                                используя чек.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Каковы ваши сроки и стоимость доставки?</h4>
+                            <p>
+                                Мы предоставляем бесплатную доставку для заказов свыше 2000 рублей. 
+                                Для заказов ниже этой суммы стоимость доставки будет зависеть от вашего 
+                                местоположения. Сроки доставки обычно составляют от 3 до 7 рабочих дней в 
+                                зависимости от вашего местоположения.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Есть ли у вас оптовые цены для бизнес-клиентов?</h4>
+                            <p>
+                                Да, у нас есть специальные оптовые цены для бизнес-клиентов. 
+                                Свяжитесь с нами для получения дополнительной информации 
+                                о наших оптовых предложениях.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Какие гарантии качества вы предоставляете?</h4>
+                            <p>
+                                Мы гарантируем качество всех наших продуктов. Если у вас возникли проблемы 
+                                с качеством товара, свяжитесь с нашей службой поддержки клиентов для решения вопроса.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Могу ли я вернуть или обменять товар?</h4>
+                            <p>
+                                Мы принимаем возвраты и обмены в течение 30 дней с момента покупки при условии, что 
+                                товар не был распакован и имеет сохраненную первоначальную упаковку. Подробности 
+                                о возврате и обмене товара можно найти в разделе "Политика возврата" нашего сайта.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Каковы особенности хранения ваших сладостей?</h4>
+                            <p>
+                                Для оптимального сохранения свежести наших сладостей рекомендуется хранить их в 
+                                прохладном и сухом месте при температуре от 15°C до 20°C, вдали от прямых солнечных лучей. 
+                                Мороженое следует хранить при температуре от 0°C до -20°C, без контакта с посторонними продуктами.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>У вас есть диетические товары?</h4>
+                            <p>
+                                На данный момент мы не имеем ассортимента, который подходил бы людям с диетическими 
+                                ограничениями. Вы всегда можете связаться с нами и рассказать нам о своих предложениях, 
+                                либо заказать что-то спецефичное у наших курьеров.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                        <div class="detail">
+                            <h4>Откуда происходят ваши ингредиенты?</h4>
+                            <p>
+                                Мы тщательно подбираем наши ингредиенты у надежных поставщиков со всего мира, чтобы 
+                                обеспечить высокое качество наших сладостей. Мы стремимся использовать натуральные 
+                                и качественные компоненты, чтобы обеспечить нашим покупателям максимальное наслаждение 
+                                от сладостей.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <a href="contact.html" class="btn">Задать вопрос</a>
+            </div>
+        </section>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="social-media">
+                <a href="" class="fa-brands fa-vk"></a>
+                <a href="" class="fa-brands fa-telegram"></a>
+                <a href="" class="fa-brands fa-instagram"></a>
+                <a href="" class="fa-brands fa-whatsapp"></a>
+            </div>
+            <div class="links">
+                <a href="index.html">Главная</a>
+                <a href="candies.html">Конфеты</a>
+                <a href="marmelade.html">Мармелад</a>
+                <a href="contact.html">Связь с нами</a>
+                <a href="Q&A.html">FAQs</a>
+            </div>
+            <div class="credits">
+                Создано <span>Дженбаз Артуром Ринатовичем</span> в качестве курсовой работы по РКЧИР.
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
